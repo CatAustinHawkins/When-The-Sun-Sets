@@ -1,12 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DistanceTracker : MonoBehaviour
 {
 
     public float distanceDT;
-
     void Awake()
     {
         GameObject[] objs = GameObject.FindGameObjectsWithTag("DT");
